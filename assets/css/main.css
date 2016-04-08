@@ -465,28 +465,40 @@ ul li {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
+  background: url(../images/startups/startup-1.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url(../images/partner/partner-2.png) no-repeat center center/contain;
+  background: url(../images/startups/startup-2.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
-  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+  background: url(../images/startups/startup-3.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
-  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+  background: url(../images/startups/startup-4.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-5 {
-  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+  background: url(../images/startups/startup-5.png) no-repeat center center/contain;
 }
 .partner .partner-box-6 {
-  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
+  background: url(../images/startups/startup-6.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-7 {
-  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+  background: url(../images/startups/startup-7.jpg) no-repeat center center/contain;
 }
 .partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+  background: url(../images/startups/startup-8.jpg) no-repeat center center/contain;
+}
+.partner .partner-box-9 {
+  background: url(../images/startups/startup-9.png) no-repeat center center/contain;
+}
+.partner .partner-box-10 {
+  background: url(../images/startups/startup-10.png) no-repeat center center/contain;
+}
+.partner .partner-box-11 {
+  background: url(../images/startups/startup-11.jpg) no-repeat center center/contain;
+}
+.partner .partner-box-12 {
+  background: url(../images/startups/startup-12.png) no-repeat center center/contain;
 }
 
 /* 
