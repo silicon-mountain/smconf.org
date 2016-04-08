@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  color: #4e4e4e;
+  color: #666666;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: #000;
+  color: #FFFFFF;
 }
 a:focus {
   outline: none;
@@ -56,7 +56,7 @@ ul li {
 .custom-list-icon li::before, .list-arrow-right li::before {
   position: absolute;
   left: 0;
-  color: #4e4e4e;
+  color: #4F742A;
   font-family: "Ionicons";
 }
 
@@ -71,13 +71,13 @@ ul li {
   display: inline-block;
   height: 32px;
   width: 32px;
-  color: #4e4e4e;
+  color: #4f742a;
 }
 .social-block li a i {
   font-size: 1.5em;
 }
 .social-block li a:hover, .social-block li a:focus {
-  color: #000;
+  color: #729A3E;
 }
 
 .btn.active.focus,
@@ -140,7 +140,7 @@ ul li {
 }
 
 .section-title {
-  color: #313131;
+  color: #4F742A;
   letter-spacing: 1px;
   margin: 0 0 20px;
   text-transform: uppercase;
@@ -243,7 +243,7 @@ ul li {
   }
 
   .section-title {
-    color: #313131;
+    color: #666666;
     letter-spacing: 1px;
     margin: 0 0 60px;
     text-transform: uppercase;
@@ -258,7 +258,7 @@ ul li {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #000;
+  background-color: #fff;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
@@ -399,7 +399,7 @@ ul li {
  */
 .speaker {
   text-align: center;
-  color: #313131;
+  color: #666666;
   text-transform: uppercase;
   margin: 25px 0;
 }
