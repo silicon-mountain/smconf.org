@@ -536,9 +536,13 @@ ul li {
   margin: 25px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
+          -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 .partner .partner-box:hover {
   opacity: 1;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 .partner .partner-box-1 {
   background: url(../images/startups/startup-1.png) no-repeat center center/contain;
