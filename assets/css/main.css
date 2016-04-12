@@ -36,6 +36,15 @@ h6 {
   font-weight: 700;
 }
 
+p.smc {
+  margin: 0 0 5px;
+}
+
+p.smt {
+  margin: 0 0 23px;
+  font-size: 2em;
+}
+
 p {
   margin: 0 0 30px;
 }
