@@ -234,9 +234,17 @@ ul li {
   left: 0;
 }
 
-.bg-image-1 {
+/*.bg-image-1 {
   background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;
-}
+} */
+
+ .bg-image-1 {
+
+         background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;
+         -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+     }
+
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -342,6 +350,8 @@ ul li {
   position: relative;
   text-align: center;
   background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 .site-header::before {
   content: "";
@@ -526,9 +536,13 @@ ul li {
   margin: 25px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
+          -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 .partner .partner-box:hover {
   opacity: 1;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 .partner .partner-box-1 {
   background: url(../images/startups/startup-1.png) no-repeat center center/contain;
@@ -700,4 +714,8 @@ ul li {
     -webkit-filter: grayscale(80%);  Chrome, Safari, Opera 
     filter: grayscale(80%);
 }
+<<<<<<< HEAD
+
+=======
 */
+>>>>>>> 29a63950054d783b39ada9567e47a754f2d6e876
