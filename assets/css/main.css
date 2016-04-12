@@ -222,10 +222,10 @@ ul li {
 /* 
  * 3.5 Helper Class: background
  */
-.bg-image, .bg-image-1, .bg-image-2 {
+.bg-image, .bg-image-1, .bg-image-2, .bg-image-3 {
   position: relative;
 }
-.bg-image::before, .bg-image-1::before, .bg-image-2::before {
+.bg-image::before, .bg-image-1::before, .bg-image-2::before, .bg-image-3::before {
   content: "";
   position: absolute;
   top: 0;
@@ -245,6 +245,13 @@ ul li {
   background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
 }
 .bg-image-2::before {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-image-3 {
+  background: url(../images/backgrounds/bg-3.jpg) no-repeat center bottom/cover;
+}
+.bg-image-3::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
