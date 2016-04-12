@@ -433,14 +433,34 @@ ul li {
  */
 .schedule-box {
   position: relative;
-  background-color: #729A3E
-;
+  background-color: #729A3E;
   color: #fff;
   text-align: center;
   padding: 50px 10px;
   margin: 25px 0 0;
 }
 .schedule-box::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  border: 1px solid #fff;
+}
+
+/* 
+ * 6.6.1 Section: Schedule
+ */
+.schedule-box1 {
+  position: relative;
+  background-color: #729A3E;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  margin: 25px 0 0;
+}
+.schedule-box1::before {
   content: '';
   position: absolute;
   top: 5px;
