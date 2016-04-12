@@ -258,8 +258,7 @@ ul li {
 @media (min-width: 768px) {
   .section {
     padding: 90px 0;
-    color: #fff;
-  }
+    }
 
   .section-title {
     color: #666666;
