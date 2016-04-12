@@ -266,7 +266,7 @@ ul li {
 @media (min-width: 768px) {
   .section {
     padding: 90px 0;
-  }
+    }
 
   .section-title {
     color: #666666;
@@ -695,13 +695,17 @@ ul li {
   opacity: 0.8;
 }
 
-img {
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+/*img {
+    -webkit-filter: grayscale(100%);  Chrome, Safari, Opera 
     filter: grayscale(100%);
-}
+}*/
 
-img:hover {
-    -webkit-filter: grayscale(80%); /* Chrome, Safari, Opera */
+/*img:hover {
+    -webkit-filter: grayscale(80%);  Chrome, Safari, Opera 
     filter: grayscale(80%);
 }
+<<<<<<< HEAD
 
+=======
+*/
+>>>>>>> 29a63950054d783b39ada9567e47a754f2d6e876
