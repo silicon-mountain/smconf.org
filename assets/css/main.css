@@ -422,9 +422,12 @@ ul li {
 .speaker p {
   margin-bottom: 5px;
 }
-.speaker img:hover {
+/*.speaker img:hover {
   opacity: .7;
-}
+}*/
+
+
+
 
 /* 
  * 6.4 Section: Registration & Pricing
@@ -646,4 +649,14 @@ ul li {
 }
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
+}
+
+img {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+img:hover {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
 }
