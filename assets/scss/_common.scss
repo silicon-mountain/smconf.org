@@ -249,6 +249,15 @@ ul {
 	}
 }
 
+.bg-image-3 {
+	@extend .bg-image;
+	background: url(../images/backgrounds/bg-3.jpg) no-repeat center bottom/cover;
+
+	&::before {
+		background-color: rbga(0, 0, 0, 0.7);
+	}
+}
+
 @media (min-width:768px) {
 	.section {
 		padding: 90px 0;
