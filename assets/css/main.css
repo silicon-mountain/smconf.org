@@ -201,12 +201,12 @@ ul li {
  */
 .btn-white {
   color: #FFFFFF;
-  background-color: #729A3E
+  background-color: #4F742A
 ;
 }
 .btn-white:hover, .btn-white:focus {
   color: #000;
-  background-color: #fff;
+  background-color: #4F742A;
 }
 
 .btn-black {
@@ -350,7 +350,7 @@ ul li {
   position: relative;
   text-align: center;
   background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
-  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  /*-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */*/
     filter: grayscale(100%);
 }
 .site-header::before {
@@ -534,8 +534,7 @@ ul li {
   height: 150px;
   width: 150px;
   margin: 25px auto;
-  -webkit-transition: 0.5s all linear;
-          transition: 0.5s all linear;
+
           -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);
 }
