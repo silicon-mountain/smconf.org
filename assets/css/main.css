@@ -200,7 +200,7 @@ ul li {
  * 3.4 Helper Class: button
  */
 .btn-white {
-  color: #000;
+  color: #FFFFFF;
   background-color: #729A3E
 ;
 }
@@ -667,7 +667,56 @@ ul li {
   figure {
     margin-bottom: 0;
   }
+
+  .add_foot{
+    padding-left: 5px;
+  }
 }
+
+/*@media (max-width: 800px){
+  .add_foot{
+    padding-left: 250px;
+  }
+}*/
+
+
+
+/*@media (max-width: 720px){
+  .add_foot{
+    padding-left: 250px;
+  }
+}
+
+@media (max-width: 600px){
+  .add_foot{
+    padding-left: 180px;
+  }
+}
+
+@media (min-width: 700px){
+  .add_foot{
+    padding-left: 10px;
+  }
+}*/
+
+@media (min-width: 520px){
+  .add_foot{
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 480px){
+  .add_foot{
+    padding-left: 95px;
+  }
+}
+
+@media (max-width: 320px){
+  .add_foot{
+    padding-left: 60px;
+  }
+}
+
 @media (min-width: 992px) {
   .schedule-box {
     margin: 0;
@@ -679,6 +728,9 @@ ul li {
 
   .grid-item-md-3 {
     width: 25%;
+  }
+  .add_foot{
+    padding-left: 10px;
   }
 }
 /* 
@@ -718,4 +770,4 @@ ul li {
 
 =======
 */
->>>>>>> 29a63950054d783b39ada9567e47a754f2d6e876
+/*>>>>>>> 29a63950054d783b39ada9567e47a754f2d6e876*/
