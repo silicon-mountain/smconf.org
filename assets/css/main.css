@@ -284,7 +284,7 @@ ul li {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #fff;
+  /*background-color: #fff;*/
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
@@ -316,9 +316,8 @@ ul li {
 }
 
 .navbar-solid {
-  background-color: #729A3E
- !important;
-  padding: 0 !important;
+  background-color: #729A3E !important;
+  padding-top: 25px !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
