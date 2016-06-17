@@ -520,6 +520,16 @@ ul li {
   border: 1px solid #fff;
 }
 
+/*
+ * Schedule Pdf download link
+ */
+#schedule_pdf{
+  font-family: tahoma;
+  font-weight: bolder;
+  background: #729A3E;
+  border-radius: 40px;
+}
+
 
 /* 
  * 6.7 Section: Schedule
