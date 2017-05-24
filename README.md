@@ -4,9 +4,9 @@ smconf.org <img src="http://i.imgur.com/Cj4rMrS.gif" height="40" alt="Swimming O
 Silicon Mountain Conference website was created, and is maintained by [The Silicon Mountain](https://github.com/silicon-mountain) developers in Buea. If you want to contribute to this project, fork the repository and follow the steps below to contribute.
 
 
-### Installing Python version 3
+### Installing Python 3.6
 
-Follow these steps to install Python 3.6 on your Linux OS: http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/linux/. We recommend developers to use Linux for development to make things easier for everyone. This step is to allow us use `python3` in-built `http.server` module to deploy the website during development.
+Follow this link to install Python 3.6 on your Linux OS: http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/linux/. We recommend developers to use Linux for development to make things easier for everyone. This step is to allow us use `python3` in-built `http.server` module to deploy the website during development.
 
 
 ### Change to home directory
@@ -29,13 +29,12 @@ Replace your <your-github-handle> with your actual Github username. For instance
 ```
 $ python3 -m http.server
 ```
-Deployment by default is on port 8000 when using the python3 in-built HTTP server.
+Deployment by default is on port 8000 when using the `python3`'s in-built HTTP server.
 
 
 ### Testing on your browser
 
-Open up your browser and type the link: https://localhost:8000.
-Hayyy! You should have the website served via HTTP successfully if the website loads locally :+1:.
+Open up your browser and type the link: https://localhost:8000. Hayyy! You should have the website served via HTTP successfully if the website loads locally :+1:.
 
 
 ### License
