@@ -21,7 +21,7 @@ $ cd ~/
 ```
 $ git clone https://github.com/<your-github-handle>/smconf.org.git
 ```
-Replace <your-github-handle> with your actual Github username. For instance, mine shoule be `git clone https://github.com/ch3nkula/smconf.org.git`.
+Replace "<your-github-handle>" with your actual Github username. For instance, mine shoule be `git clone https://github.com/ch3nkula/smconf.org.git`.
 
 
 ### Build & Deploy locally
