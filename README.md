@@ -27,14 +27,18 @@ Replace `<your-github-handle>` with your actual Github username. For example, In
 ### Build & Deploy locally
 
 ```
-$ python3 -m http.server
+$ python3 -m SimpleHTTPServer <any-free-port> // E.g. python3 -m http.server 8000
 ```
-Deployment by default is on port 8000 when using the `python3`'s in-built HTTP server.
+OR If you're using an in-built PHP server
+
+```
+$ php -S localhost:<any-free-port> // E.g. php -S localhost:8000
+```
 
 
 ### Testing on your browser
 
-Open up your browser and type the link: http://localhost:8000. Hayyy! You should have the website served via HTTP successfully if the website loads locally :+1:.
+Open up your browser and type the link: http://localhost:<any-free-port> E.g. http://localhost:8000 .Hayyy! You should have the website served via HTTP successfully if the website loads locally :+1:.
 
 
 ### License
