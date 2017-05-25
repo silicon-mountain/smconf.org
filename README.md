@@ -34,7 +34,7 @@ Deployment by default is on port 8000 when using the `python3`'s in-built HTTP s
 
 ### Testing on your browser
 
-Open up your browser and type the link: https://localhost:8000. Hayyy! You should have the website served via HTTP successfully if the website loads locally :+1:.
+Open up your browser and type the link: http://localhost:8000. Hayyy! You should have the website served via HTTP successfully if the website loads locally :+1:.
 
 
 ### License
