@@ -27,7 +27,7 @@ Replace `<your-github-handle>` with your actual Github username. For example, In
 ### Build & Deploy locally
 
 ```
-$ python3 -m SimpleHTTPServer <any-free-port> // E.g. python3 -m http.server 8000
+$ python -m SimpleHTTPServer <any-free-port> // E.g. python -m SimpleHTTPServer 8000
 ```
 OR If you're using an in-built PHP server
 
