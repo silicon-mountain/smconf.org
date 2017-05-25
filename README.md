@@ -38,7 +38,7 @@ $ php -S localhost:<any-free-port> // E.g. php -S localhost:8000
 
 ### Testing on your browser
 
-Open up your browser and type the link: http://localhost:<any-free-port> E.g. http://localhost:8000 .Hayyy! You should have the website served via HTTP successfully if the website loads locally :+1:.
+Open up your browser and type the link: http://localhost:KKKK , KKKK := <any-free-port> you used above E.g. http://localhost:8000 .Hayyy! You should have the website served via HTTP successfully if the website loads locally :+1:.
 
 
 ### License
