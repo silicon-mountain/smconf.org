@@ -17,17 +17,17 @@
 </head>
 <body data-spy="scroll" data-target="#site-nav">
 
-	<!-- Adding Google Analytics to the site -->
-	<script>
-  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- Adding Google Analytics to the site -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  	ga('create', 'UA-76737013-1', 'auto');
-  	ga('send', 'pageview');
+    ga('create', 'UA-76737013-1', 'auto');
+    ga('send', 'pageview');
 
-	</script>
+    </script>
 
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
@@ -56,21 +56,26 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <!-- navigation menu -->
-		            <li class="active"><a data-scroll href="index.html">Attend</a></li>
+                    <li class="active"><a data-scroll href="index.html">Attend</a></li>
                     <li><a data-scroll href="#about" title="About SMConf 2016- Silicon Mountain Conference">About</a></li>
                     <li><a data-scroll href="#speakers" title="Speakers for SMConf 2016 - Silicon Mountain Conference">Speakers</a></li>              
                     <li><a data-scroll href="#schedule" title="Schedule SMConf 2016 - Silicon Mountain Conference">Schedule</a></li>                  
                     <li><a data-scroll href="#partner" title="Partners of SMConf 2016 - Silicon Mountain Conference">Partners</a></li>                  
                     <li><a data-scroll href="#sponsor" title="Sponsors for SMConf 2016 - Silicon Mountain Conference">Sponsors</a></li>
                     <li><a data-scroll href="#faq" title="Questions about SMConf 2016 - Silicon Mountain Conference">FAQ</a></li>
-                    <li><a data-scroll href="#photos" title="Photos of SMConf 2015 - Silicon Mountain Conference">2015</a></li>
-		            <li><a data-scroll href="#location" title="Chariot Hotel Buea, the Venue of SMConf 2016 - Silicon Mountain Conference">Venue</a></li>
-                
+                    <li id="pst"><a data-scroll href="#" title="Photos of SMConf 2015 - Silicon Mountain Conference">Past Events</a>
+                    <ul id="dropdown">
+                        <li> <a href="#"> 2016 </a></li>
+                        <li> <a href="#photos"> 2015 </a></li>
+                        <li> <a href="#"> 2014 </a></li>
+                        <li> <a href="#"> 2013 </a></li>
+                    </ul>
+                    </li>
+                    <li><a data-scroll href="#location" title="Chariot Hotel Buea, the Venue of SMConf 2016 - Silicon Mountain Conference">Venue</a></li>
                 </ul>
             </div>
         </div><!-- /.container -->
     </nav>
-
     <header id="site-header" class="site-header valign-center"> 
         <div class="intro" itemscope itemtype="http://schema.org/Event">
 
@@ -113,7 +118,7 @@
                     <p class="smt" title="Theme for SMConf 2016 - Silicon Mountain Conference">Think Global, Build Local.</p>
 
                     <ul class="list-arrow-right" title="What you will experience during the upcoming SMConf 2016 - Silicon Mountain Conference">
-						<li>Featuring design workshops, code labs and ignite talks.</li>
+                        <li>Featuring design workshops, code labs and ignite talks.</li>
                         <li>Everything required to challenge techies to conceive, code and collaborate.</li>
                         <li>Experience dedicated one-on-one sessions with startups at Startup Booths</li>
                         <li>Geeks showcase their talents; from good to great, iconic to inspirational.</li>
@@ -317,7 +322,7 @@
                         <p>Learn more about Graphic design, Illustration, Photography, Creative Imaging, Video Animation, Web & App design and Digital Publishing</p>
                     </div>
                 </div>
-		<div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6">
                     <div class="schedule-box2">
                         <div class="time">
                             <time datetime="11:00">11:00 am</time> - <time datetime="14:00">02:00 pm</time>
@@ -326,8 +331,8 @@
                         <p style="padding: 0 10px; text-align: center;">Learn more about Cloud, Mobile, Desktop and Web. From DevOps, Scalability, Platforms, Programming Concepts, Tools and Techniques.</p>
                     </div>
                 </div>
-		
-		<div class="col-md-4 col-sm-6">
+        
+        <div class="col-md-4 col-sm-6">
                     <div class="schedule-box2">
                        <div class="time">
                             <time datetime="11:00">11:00 am</time> - <time datetime="14:00">07:00 pm</time>
@@ -348,7 +353,7 @@
                 </div>
             </div>
 
-	    <div class="row">
+        <div class="row">
                <div class="col-md-offset-4 col-md-4 col-sm-6">
                     <div class="schedule-box2">
                         <div class="time">
@@ -499,7 +504,7 @@
 
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                	<p> SMConf 2016 will be held June 18, 2016 at Chariot Hotel Complex in Mile 18, Buea. The Chariot Hotel Complex is located 1 mile from Mile 17 in Buea and 70.1 km from the Douala International Airport.For information on driving directions and garage parking click<a href="http://bit.ly/1Sby1eI" style="color: #4F742A; font-weight: bolder;"> here</a>. The conference will include a full day divided between general sessions in the morning and three different breakout sessions in the afternoon: Design Studios, Hackers Sandbox and Community Pavilion. We will also have a Startup booth after Lunch for Developers and Designers to have one-on-one sessions with Startups. </p>
+                                    <p> SMConf 2016 will be held June 18, 2016 at Chariot Hotel Complex in Mile 18, Buea. The Chariot Hotel Complex is located 1 mile from Mile 17 in Buea and 70.1 km from the Douala International Airport.For information on driving directions and garage parking click<a href="http://bit.ly/1Sby1eI" style="color: #4F742A; font-weight: bolder;"> here</a>. The conference will include a full day divided between general sessions in the morning and three different breakout sessions in the afternoon: Design Studios, Hackers Sandbox and Community Pavilion. We will also have a Startup booth after Lunch for Developers and Designers to have one-on-one sessions with Startups. </p>
                                 </div>
                             </div>
                         </div>
@@ -532,7 +537,7 @@
                             </div>
                         </div>
 
-			<div class="panel panel-default">
+            <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingSix">
                                 <h4 class="panel-title">
                                     <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> How can my Company sponsor SMConf 2016 ?</a>
@@ -544,7 +549,7 @@
                             </div>
                         </div>
 
-			<div class="panel panel-default">
+            <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingNine">
                                 <h4 class="panel-title">
                                     <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine"> What to expect in Buea?</a>
@@ -559,7 +564,7 @@
                             </div>
                         </div>
 
-			<div class="panel panel-default">
+            <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingEleven">
                                 <h4 class="panel-title">
                                     <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven"> What is the Code of Conduct?</a>
@@ -668,7 +673,7 @@
                         <li><a href="https://twitter.com/sm_conf"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="http://bit.ly/20BOglh"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="https://goo.gl/0qAbHa"><i class="ion-social-googleplus"></i></a></li>
-			            <li><a href="https://www.instagram.com/smconf/"><i class="ion-social-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/smconf/"><i class="ion-social-instagram"></i></a></li>
                         <li><a href="https://github.com/orgs/silicon-mountain/"><i class="ion-social-github"></i></a></li>
                     </ul>
                 </div>
