@@ -61,7 +61,7 @@ A good commit log can look something like this:
 
 ```
 ISSUE 44: Added more info to the Contributors Guide.
-
+```
 
 
 ### Step 4: Rebase
