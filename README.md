@@ -3,6 +3,13 @@ smconf.org <img src="http://i.imgur.com/Cj4rMrS.gif" height="40" alt="Swimming O
 
 Silicon Mountain Conference website was created, and is maintained by [The Silicon Mountain](https://github.com/silicon-mountain) developers in Buea. If you want to contribute to this project, fork the repository and follow the steps below to contribute.
 
+# Contributing code
+Code contributions are very welcome! Browse the [Issue tracker](https://github.com/silicon-mountain/smconf.org/issues) for issues that need code and/or come up with your own ideas & code. Please open a [Pull Request](https://github.com/silicon-mountain/smconf.org/pulls) to contribute your own code.
+
+
+## Local Development
+
+
 
 ### Installing Python 3.6
 
